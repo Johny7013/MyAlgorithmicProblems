@@ -1,0 +1,29 @@
+\documentclass[zad]{soigstyl}
+
+% opcjonalne (obowiazkowe) parametry
+\pagestyle{fancy}
+\konkurs{Konkurs}
+\etap{etap 1}
+\day{1}
+\date{01.01.1970}
+%\setlogo{oiglogo}%brak ustawienia wstawia domyslnie logo talentu
+%\setstopka{stopka_bw}
+\title{\mbox{Zegarek}}
+\id{opr}
+\RAM{64}
+
+\begin{document}
+
+\begin{tasktext}%
+    \noindent
+    Panu Tadeuszowi popsuł~się jego ulubiony zegarek z~kukułką. Pan Tadeusz zna~się na~prostych układach elektrycznych, więc postanowił samemu zająć~się jego naprawą. Odkrył, że przyczyną problemu jest tajemnicze zniknięcie jednego z~trzech oporników w~układzie. Postanowił więc znaleźć w~domu substytut. Potrafi wstawić na~miejsce brakującego opornika przedmiot o~dowolnym oporze, nie wie jednak, jaki opór jest potrzebny. W~układzie znajdują~się dwa identyczne oporniki o~znanym oporze $R_Z$ ułożone szeregowo, a~brakujący opornik o oporze $R_S$ był do~nich równoległy. Dodatkowo pan Tadeusz wie, że cały układ miał mieć opór $N$ razy większy od~brakującego opornika. Pan Tadeusz poprosił Cię o~pomoc w~wybraniu odpowiedniego oporu, jednak nie jest pewien, ile dokładnie wynosiły opory i~liczba $N$. Rozwiąż zatem zadanie dla wszystkich podanych przez niego przypadków.
+	
+    	\section{Wejście}
+	W~$K$ $(1 \leqslant K \leqslant 30000)$ wierszach standardowego wejścia zapisano oddzielone spacją dwie wartość naturalne $R_Z$ i~$N$ $(2 \leqslant$ $R_Z$ i~$N \leqslant 30000)$, gdzie $R_Z$ -- wartość oporów w~omach, $N$ –- ile razy mniejsza jest wartość układu $AB$ od~wartości oporu $R_S$. W~$K+1$ wierszu zapisano oddzielone spacją dwie wartości równe zero, dla~tych wartości nie~wykonujemy obliczeń. 
+
+	\section{Wyjście}
+	W~$K$ wierszach zapisz zgodnie z~kolejnością wczytania $R_Z$ wartość oporu $R_S$ w~omach dla~każdego przykładu.
+	
+	\oigprzyklady
+\end{tasktext}
+\end{document}

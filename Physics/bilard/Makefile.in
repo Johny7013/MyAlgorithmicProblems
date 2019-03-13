@@ -1,0 +1,11 @@
+ID=bilard
+TASK_MODEL="szablonoig"
+CHECKER=standard_compare
+RESTRICT_TESTS="${ID}0 ${ID}0b ${ID}0c ${ID}1a ${ID}1b ${ID}2a ${ID}2b ${ID}3a ${ID}3b ${ID}4a ${ID}4b ${ID}5a ${ID}5b ${ID}6a ${ID}6b ${ID}7a ${ID}7b ${ID}8a ${ID}8b ${ID}9a ${ID}9b ${ID}10a ${ID}10b"
+CSOLUTIONS=""
+CPPSOLUTIONS="${ID}"
+PASSOLUTIONS=""
+MAIN_SOLUTION=${ID}.cpp
+TIMELIMIT=1 #s
+MEMLIMIT=64 #MiB
+SEED=251378470

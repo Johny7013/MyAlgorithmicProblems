@@ -1,0 +1,11 @@
+ID=pkw
+TASK_MODEL="szablonoig"
+CHECKER=standard_compare
+RESTRICT_TESTS="${ID}0 ${ID}0b ${ID}0c"
+CSOLUTIONS=""
+CPPSOLUTIONS="${ID} ${ID}_wolniejsze ${ID}_brut ${ID}_bezll"
+PASSOLUTIONS=""
+MAIN_SOLUTION=${ID}.cpp
+TIMELIMIT=2 #s
+MEMLIMIT=64 #MiB
+SEED=130098958

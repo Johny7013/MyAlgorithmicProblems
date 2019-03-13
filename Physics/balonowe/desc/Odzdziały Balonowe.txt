@@ -1,0 +1,5 @@
+Oddzia³y Balonowe
+
+
+W~pierwszym i~jedynym wierszu standardowego wej¶cia znajduj±~siê dwie liczby ca³kowite $t$~(w~sekundach) i~$v$~(w~$\frac{m}{s}$) (1<=t,v<=10^5), które oznaczaj¹ odpowiednio czas od rozpoczêcia ruchu jednostajnego prostolinowego balonu w górê i wartoœæ prêdkoœci z jak¹ porusza siê balon.
+W pierwszym wierszu standardowego wyjœcia nale¿y wypisaæ czas (w sekundach) jaki up³yn¹³ od wypuszczenia bomby z balonu do uderzenia jej o pod³o¿e z dok³adnoœci¹ do 0,001.

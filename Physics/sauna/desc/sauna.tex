@@ -1,0 +1,29 @@
+\documentclass[zad]{soigstyl}
+
+% opcjonalne (obowiazkowe) parametry
+\pagestyle{fancy}
+\konkurs{Konkurs}
+\etap{etap 1}
+\day{1}
+\date{01.01.1970}
+%\setlogo{oiglogo}%brak ustawienia wstawia domyslnie logo talentu
+%\setstopka{stopka_bw}
+\title{\mbox{Sauna parowa}}
+\id{sauna}
+\RAM{64}
+
+\begin{document}
+
+\begin{tasktext}%
+    \noindent
+    Michał jest poczciwym obywatelem Bajtocji. Jako że ma on duszę ekologa to dba o~środowisko naturalne i~korzysta z~alternatywnych źródeł energii, a~mianowice do prawidłowego funkcjonowania sauny parowej używa energii z~piorunów. Nasz bohater bardzo lubi przesiadywać w~swojej saunie, jednak dla dobra środowiska jest w~stanie ograniczyć swój czas relaksu w~niej tylko do burzowych dni. Sauna parowa Michała działa w~następujący sposób: $80\%$ energii pioruna jest przekazywane do~żelaznej kuli, następnie $30\%$ pozostałej energii jest tracone przez kulę podczas transportu, finalnie kula jest umieszczana w~zbiorniku wody i~dzięki temu woda ze~zbiornika odparowuje. Michał zastanawia~się jaki minimalny ładunek elektryczny musi przenieść piorun, aby cała woda ze~zbiornika wyparowała. Przy rozwiązywaniu zadania przyjmij, że: ciepło właściwe wody $c=4200\frac{J}{kg \cdot K}$, ciepło parowania wody $c_p=2250000\frac{J}{kg}$, czas uderzenia pioruna $t=0,02s$, ciepło właściwe żelaza $c_z=449\frac{J}{kg \cdot K}$, ciepło topnienia żelaza $c_t=268000\frac{J}{kg}$, temperatura topnienia żelaza $t_t=1538^{\circ}C$, opór elektryczny powietrza $R=180k\Omega$, temperatury początkowe żelaznej kuli i~wody w~zbiorniku wynoszą $20^{\circ}C$.
+	
+    	\section{Wejście}
+	Na wejściu otrzymujemy dwie liczby całkowite $m_1$ i~$m_2~(1 \leqslant m_1, m_2 \leqslant 10^6)$, które oznaczają odpowiednio masę żelaznej kuli i~masę wody w~zbiorniku w~kg.
+
+	\section{Wyjście}
+	W~pierwszym i~jedynym wierszu wyjścia należy wypisać jedną liczbę rzeczywistą oznaczającą minimalną wartość ładunku elektrycznego w~kulombach z~dokładnością do $0,001$, która jest konieczna do~wyparownia całej wody ze~zbiornika.
+	
+	\oigprzyklady
+\end{tasktext}
+\end{document}

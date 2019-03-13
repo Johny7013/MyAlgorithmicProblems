@@ -1,0 +1,29 @@
+\documentclass[zad]{soigstyl}
+
+% opcjonalne (obowiazkowe) parametry
+\pagestyle{fancy}
+\konkurs{Konkurs}
+\etap{etap 1}
+\day{1}
+\date{01.01.1970}
+%\setlogo{oiglogo}%brak ustawienia wstawia domyslnie logo talentu
+%\setstopka{stopka_bw}
+\title{\mbox{Bilard}}
+\id{bilard}
+\RAM{64}
+
+\begin{document}
+
+\begin{tasktext}%
+    \noindent
+    Bartek jest miłośnikiem bilarda, jednakże ostatnio nie może znaleźć równego sobie przeciwnika. Próbował grać w~inne gry, ale one nie sprawiają mu takiej frajdy co, jak twierdzi, najbardziej męski sport. Postanowił~się bawić sam ze sobą. Chciałby wiedzieć, czy uderzając białą bilą z~daną siłą nadając jej prędkość $v_0$ trafi czarną bilę do łuzy. Jednakże, żeby~się nie namęczyć postawił czarną bilę na prostej pomiędzy białą bilą a~łuzą. Jako, że jest absolutnym mistrzem w~bilardzie, będzie trafiał białą bilę idealnie w~środek czarnej. Mimo wszystkich ułatwień jest na tyle leniwy, że woli wysługiwać~się innymi. Niestety, miałeś u~niego dług i~jak już~się domyślasz wyznaczył ciebie do odpowiedzenia na pytanie, czy dla wartości prędkości $v_0$, współczynnik tarcia $f$, odległości białej bili od czarnej $s_1$ i~odległości czarnej do łuzy $s_2$, trafi czarną bilę do łuzy. Jeżeli czarna bila nie dotrze do łuzy, masz wyznaczyć minimalne $v_0$, dla którego czarna bila wleci do łuzy. Bile i~łuzę traktujemy jako punkty. Bile suną po stole bilardowym. Przy rozwiązywaniu zadania przyjmij, że: przyśpieszenie grawitacyjne $g = 9,81 \frac{m}{s^2}$, przy zderzeniu białej bili z~czarną przekazane zostaje $70\%$ energii.
+	
+    	\section{Wejście}
+	W~pierwszym i~jedynym wierszu wejścia masz podane cztery wartości rzeczywiste $v_0, f, s_1 i~s_2~(0 < v_o, s_1, s_2 \leqslant 10^6, 0 < f < 1)$, oznaczające odpowiednio wartość prędkości początkowej białej bili, współczynnik tarcia między stołem a bilami, odległość białej bili do czarnej oraz odległość czarnej bili do łuzy.
+
+	\section{Wyjście}
+	W~pierwszym i~jedynym wierszu wyjścia masz wypisać \texttt{TAK}, jeśli czarna bila trafi do łuzy, albo \texttt{NIE}, jeśli nie trafi i~podać minimalną wartość $v_0$ z~dokładnością do $0,001$, dla której czarna bila wleci do łuzy.
+	
+	\oigprzyklady
+\end{tasktext}
+\end{document}

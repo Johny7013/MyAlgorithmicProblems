@@ -1,0 +1,30 @@
+\documentclass[zad]{soigstyl}
+
+% opcjonalne (obowiazkowe) parametry
+\pagestyle{fancy}
+\konkurs{Konkurs}
+\etap{etap 1}
+\day{1}
+\date{01.01.1970}
+%\setlogo{oiglogo}%brak ustawienia wstawia domyslnie logo talentu
+%\setstopka{stopka_bw}
+\title{\mbox{Pierwsze Kwadraty}}
+\id{pkw}
+\RAM{64}
+
+\begin{document}
+
+\begin{tasktext}%
+    \noindent
+    Bajtek jest bardzo pilnym uczniem. Zawsze uczy~się na~sprawdziany i~odrabia zadania domowe. Jego ulubionym przedmiotem jest matematyka. Na~ostatnich lekcjach poznał liczby pierwsze oraz~podnoszenie do~kwardatu, aby~powtórzyć sobie do~sprawdzianu postanowił połączyć dwa tematy w~jedno zadanie. Oblicza, ile kwadratów liczb pierwszych znajduje~się w~różnych przedziałach. Nie wie jednak jak szybko zweryfikować swoje wyniki. Napisz program który mu~w~tym~pomoże.
+	
+    	\section{Wejście}
+	W~pierwszym wierszu standardowego wejścia znajduje~się jedna liczba naturalna $n$ ($1 \leqslant n \leqslant 10^6$) oznaczająca ilość zapytań Bajtka. W~kolejnych $n$ wierszach znajdują się po~dwie liczby naturalne $a_i$ i~$b_i$  ($1 \leqslant a \leqslant b \leqslant 10^{12}$), które oznaczają przedział liczb o~jaki pyta~się Bajtek w~$i-tym$ zapytaniu.
+Dodatkowo w $30\% testów n \leqslant 1000$.
+
+	\section{Wyjście}
+	Wyjście powinno składać się z~$n$ wierszy. W~$i-tym$ wierszu powinna znaleźć się odpowiedź dla $i-tego$ zapytania Bajtka.
+	
+	\oigprzyklady
+\end{tasktext}
+\end{document}

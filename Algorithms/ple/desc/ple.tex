@@ -1,0 +1,29 @@
+\documentclass[zad]{soigstyl}
+
+% opcjonalne (obowiazkowe) parametry
+\pagestyle{fancy}
+\konkurs{Konkurs}
+\etap{etap 1}
+\day{1}
+\date{01.01.1970}
+%\setlogo{oiglogo}%brak ustawienia wstawia domyslnie logo talentu
+%\setstopka{stopka_bw}
+\title{\mbox{Problem Plecakowy}}
+\id{ple}
+\RAM{64}
+
+\begin{document}
+
+\begin{tasktext}%
+    \noindent
+    Kamil obudził się pewnego dnia i~uświadomił sobie,~że nic nie pamięta z~zeszłego tygodnia. Zaczął zatem przeszukiwać swój pokój, w~nadziei że rzeczy znajdujące~się w~nim rzucą nieco światła na wydarzenia ostatnich dni. Znalazł wiele ciekawych przedmiotów, ale jednego nie mógł się doszukać - swojego ulubionego plecaka. Bardzo się tym zmartwił, ale na szczęście jego oczom ukazał~się tajemniczy notatnik. Otworzył go i~ujrzał zapisane w nim pewne lokacje.  Przy każdej z~nich znajdowały się liczby, które przypomiały współrzędne, ale z~niewadomych przyczyn było ich aż cztery. Zaniepokojony tym, wyszedł na dwór i~okazało się, że żyje w~czterowymiarowej przestrzeni. Postanowił wsiąść na swój rower w poszukiwaniu plecaka. Kamil odwiedzi wszystkie lokacje w kolejności ich zapisania w notatniku (na jego nieszczęście plecak znajduje się zawsze w~ostatniej z nich). Ze względu na zróżnicowaną charakterystykę terenu (w końcu jest czterowymiarowy) każdy z odcinków między lokacjami pokonuje z~różnym przyspieszniem po najkrótszej ścieżce. Aby zatrzymać się w~danym miejscu przestaje pedałować i wciska humulce, które działają ze stałą siłą F. Wylicz po jakim czasie (w jednostkach układu SI) Kamil znajdzie swój plecak.
+	
+    	\section{Wejście}
+	W pierszym wierszu standardowego wejścia otrzymujemy trzy liczby naturalne $n$, $m$, $F$ ($1\leqslant n\leqslant 100, 100\leqslant m\leqslant 250,  100\leqslant F\leqslant 1000$), które oznaczają odpowiednio liczbę lokacji zapisanych w notatniku, masę Kamila wraz z rowerem oraz siłę hamowania hamulców. W następnych n wierszach znajduje się pięć liczb całkowitych $a$, $x$, $y$, $z$, $w$ ($1\leqslant a\leqslant 10, 0\leqslant x, y, z, w\leqslant 1000$), oznaczające odpowiednio przyspieszenie, z którym porusza się w stronę danego punktu oraz jego współrzędne. Dom Kamila znaduje się w punkcie (0, 0, 0, 0). 
+
+	\section{Wyjście}
+	Na standardowe wyjście należy wypisać czas po jakim Kamil znajdzie swój plecak z dokładnością do $10^{-3}$.
+	
+	\oigprzyklady
+\end{tasktext}
+\end{document}

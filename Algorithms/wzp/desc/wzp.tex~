@@ -1,0 +1,35 @@
+\documentclass[zad]{soigstyl}
+
+% opcjonalne (obowiazkowe) parametry
+\pagestyle{fancy}
+\konkurs{Konkurs}
+\etap{etap 1}
+\day{1}
+\date{01.01.1970}
+%\setlogo{oiglogo}%brak ustawienia wstawia domyslnie logo talentu
+%\setstopka{stopka_bw}
+\title{\mbox{Wielki Zjazd Plików}}
+\id{wzp}
+\RAM{64}
+
+\begin{document}
+
+\begin{tasktext}%
+    \noindent
+    W~Bajtocji odbywa~się Wielki Zjazd Plików. Pliki z~całej Bajtocji zebarały~się w~Bajtogrodzie, aby dyskutować na~bardzo ważne tematy. Jesteś pracownikiem punktu informacyjnego i~dysponujesz listą, na~której znajdują~się wielkości plików, które przybyły na~WZP. Co~chwilę przychodzą do Ciebie pliki z~pytaniem: \textit{Ile jest na~zebraniu plików większych ode mnie?}. Twoim zadaniem jest odpowiedzienie na~$t$ takich pytań.
+	
+    	\section{Wejście}
+	W~pierwszym wierszu standardowego wejścia znajdują~się dwie liczby naturalne $n$~i~$t$~($1 \leqslant n, t \leqslant 10^5$), które oznaczają odpowiednio liczbę plików, które pojawiły się na~WZP i~liczbę zapytań skierowanych do~Ciebie przez pliki. W~drugim wierszu podane jest $n$ liczb $a_1, a_2,...a_n$ ($1 \leqslant a_i \leqslant 10^9$), które oznaczaja rozmiary plików w~bitach. Kolejne $t$~wierszy zawiera po jednej liczbie naturalnej, której wartość nie~przkracza $10^5$ - są~to~numery plików, które zadawały kolejne pytania. Pliki są~numerowane w~takiej kolejności jak~zostały podane na~wejściu.
+
+	\section{Wyjście}
+	Na~standardowe wyjście należy wypisać~$t$~wierszy. W $j$-tym wierszu powinna znaleźć~się odpowiedź dla $j$-tego zapytania.
+	
+	\oigprzyklady
+\end{tasktext}
+
+
+
+\begin{flushright}
+\textit{Autor zadania: Jan Klinkosz}\\
+\end{flushright}
+\end{document}

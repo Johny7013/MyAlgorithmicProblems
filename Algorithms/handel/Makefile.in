@@ -1,0 +1,11 @@
+ID=handel
+TASK_MODEL="szablonoig"
+CHECKER=standard_compare
+RESTRICT_TESTS="${ID}0 ${ID}0b ${ID}0c"
+CSOLUTIONS=""
+CPPSOLUTIONS=" ${ID}_brut_n2 ${ID}_brut_n3 ${ID} ${ID}_marek ${ID}_zła"
+PASSOLUTIONS=""
+MAIN_SOLUTION=${ID}.cpp
+TIMELIMIT=2 #s
+MEMLIMIT=128 #MiB
+SEED=135264749

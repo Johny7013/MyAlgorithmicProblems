@@ -1,0 +1,5 @@
+Piotr, jako nadzwyczajnie wysportowany cz³owiek, z niema³¹ kondycj¹ zdecydowa³ siê wystartowaæ w pewnym maratonie. Organizatorzy owego maratonu zdecydowali, ¿e co 1/3 trasy bêd¹ rozmieszczone pomiary czasu, które zmierz¹ czas jak równie¿ wylicz¹ œredni¹ prêdkoœæ na danym odcinku. Bohater naszej historii po ukoñczonym biegu, który oczywiœcie wygra³, chcia³ siê dowiedzieæ  z jak¹ œredni¹ wartoœci¹ prêdkoœci porusza³ siê na ca³ym odcinku maratonu. Jednak¿e organizatorzy nie przewidzieli takiej sytuacji, a jako, ¿e nie potrafi¹ tego wyliczyæ i Piotr jest bardzo uparty, wyznaczyli ciebie do obliczenia tego.
+Wyjœcie
+W pierwszym i jedynym wierszu masz podane 3 wartoœci ca³kowite oznaczaj¹ce wartoœci prêdkoœci Piotra  na ka¿dej  1/3 d³ugoœci trasy (v1,v2,v3<10^6).
+Wyjœcie
+Na wyjœciu powinna znaleŸæ siê œrednia wartoœæ prêdkoœci Piotra na ca³ej trasie.
